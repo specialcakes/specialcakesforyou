@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: 1em;
+	line-height: 1.3em;
+	}
+.specialcakesfont {
+	font-family: Arial, sans-serif;
+}
+/* classes */
+.burntred {
+	color: #E94D40;
+}
+.navyblue {
+	color: #0C243C;
+}
+.specialcakesfont {
+	font-family: Arial, sans-serif;
+}
+.mainheading
+{
+	font-family: Arial, sans-serif;
+	font-size: 200%;
+	color: #E94D40;
+}
+.subheading
+{
+	font-family: Arial, sans-serif;
+	font-size: 150%;
+	color: #E94D40;
+}
+.headingtext
+{
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	color: #0C243C;
+}
+.maintext
+{
+	font-family: Arial, sans-serif;
+	font-size: 80%;
+	color: #0C243C;
+}
+.container
+{
+position: absolute;
+    width: 100%;
+    /* Change this value to customize the content area*/
+    margin: 0 auto;
+text-align: center;
+}
+.bannerimage {
+	postion: relative;
+	width: 100%;
+	height: 100%;
+	}	
+.singleimage {
+    postion: relative;
+	width: 50%;
+	height: 50%;
+}
+.logoimage {
+	float: left;
+   	postion: top;
+	width: 25%;
+	height: 25%;
+}
+#footer{
+	position: absolute;
+	bottom: 0;
+	height: 10px;
+	width: 100%;
+	color: #0C243C;
+	padding: 0.5rem 0px;
+	font-family: Aerial,sans-serif;
+	font-size: 10px;
+	line-height: 1.5;
+}	
+	
