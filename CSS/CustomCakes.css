@@ -76,4 +76,21 @@ text-align: center;
 	font-size: 10px;
 	line-height: 1.5;
 }	
+#navigationBar
+{
+	list-style: none;
+	align-content: space-around;
+	grid-gap: 5%;
+	width: 100%;
+	height: 100%; 
+	text-decoration: none;
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: #797979;
+	color: #0C243C;
+	padding: 5px;
+	font-family: Aerial,sans-serif;
+	font-size: 10px;
+	line-height: 1.5;
+}	
 	
