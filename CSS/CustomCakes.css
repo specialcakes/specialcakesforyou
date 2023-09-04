@@ -61,8 +61,7 @@ body {
 	height: 15%;
 }
 /*multi image table like layout*/
-.mutilayout
-	{
+.mutilayout	{
 	display:flex;
 	align-items:center;
 	justify-content: center;
