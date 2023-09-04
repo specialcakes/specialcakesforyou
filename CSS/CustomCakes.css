@@ -129,7 +129,13 @@ body {
 	width: 10%;
 	height: 10%;
 }
-
+/*table styling*/
+.table1
+{
+	font-family: Arial, sans-serif;
+	font-size: 200%;
+	color: #E94D40;
+}
 
 	
 
