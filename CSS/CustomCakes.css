@@ -112,5 +112,24 @@ body {
 		transition-timing-function: ease;
   		width: 50%;
 }
+/*Form Styles*/
+#form1
+{
+	font-family: Arial, sans-serif;
+	font-size: 80%;
+	color: #0C243C;
+	align-content: center;
+}
+.formcontainer
+{
+	display:inline-flex;
+	flex:initial;
+	flex-direction:row;
+	flex-wrap: wrap;
+	width: 10%;
+	height: 10%;
+}
+
+
 	
 
