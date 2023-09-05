@@ -44,8 +44,9 @@ body {
 }
 /*images*/
 .bannerimage {
-	postion: relative;
-	width: 100%;
+	postion: absolute;
+	top:0;
+	width:100%;
 	height: 100%;
 	}	
 .singleimage {
@@ -54,10 +55,13 @@ body {
 	height: 50%;
 }
 .logoimage {
+	z-index: 10;
+	position: relative;
 	float: left;
    	postion: top;
 	width: 15%;
 	height: 15%;
+	border:outset;
 }
 /*multi image table like layout*/
 .mutilayout	{
@@ -94,22 +98,42 @@ body {
 	font-size: 10px;
 	line-height: 1.5;
 }	
-#navigationBar {
-	list-style: none;
-	align-content: space-around;
-	grid-gap: 6%;
-	width: 100%;
-	height: 100%; 
-	text-decoration: none;
-	display: flex;
-	flex-direction: row-reverse;
-	background-color: #797979;
-	color: #0C243C;
-	padding: 5px;
-	font-family: Aerial,sans-serif;
-	font-size: 10px;
-	line-height: 1.5;
-}	
+/* NAV BAR*/
+.navbar
+{
+  	overflow: hidden;
+  	background-color: transparent;
+ 	position: fixed; /* Set the navbar to fixed position */
+ 	top: 0; /* Position the navbar at the top of the page */
+ 	width: 100%; /* Full width */
+}
+.navbar a {
+  	float: right;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+ 	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+ 	background: #ddd;
+ 	color: black;
+}
+
+#naviBar{
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 25%;
+  	background:url("../images/minicakes1200.png") no-repeat 50% 50% / cover;
+}
+.main {
+  margin-top: 250px; /* Add a top margin to avoid content overlay */
+}
 /*Form Styles*/
 #form1
 {
