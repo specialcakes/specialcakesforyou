@@ -131,8 +131,8 @@ body {
   	top: 0;
   	left: 0;
   	width: 100%;
-  	height: 25%;
-  	background:url("../images/minicakes1200.png") no-repeat 50% 50% / cover;
+  	height: 200px;
+  	background:url("../images/minicakes1200.png") no-repeat 50% 50% /cover;
 }
 .main {
   margin-top: 250px; /* Add a top margin to avoid content overlay */
